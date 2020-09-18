@@ -4,7 +4,10 @@ void main() {
 	int n;
 	printf("Nhap n = ");
 	scanf("%d", &n);
-	
+	if (n < 0) {
+		printf("khong ton tai");
+		return;
+	}	
 	int f0 = 1;
 	int f1 = 1;
 	int fi = 0;
