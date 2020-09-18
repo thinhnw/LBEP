@@ -9,7 +9,7 @@ void main() {
 	int f1 = 1;
 	int fi = 0;
 	
-	printf("So fibo thu n la: ");
+	printf("So fibo thu %d la: ", n);
 	switch (n) {
 		case 0:
 			printf("0\n");
