@@ -19,6 +19,7 @@ void main() {
             cnt++;
         }
     }
-    avg = avg/cnt;
+    if (cnt)
+        avg = avg/cnt;
     printf("Average = %lf\n", avg);
 }
