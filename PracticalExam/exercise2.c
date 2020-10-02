@@ -20,6 +20,6 @@ void main() {
 
 		double interest = capital * interest_rate / 100;
 		capital += interest;
-		printf("%-10d %-18lf %-lf\n", i, interest, capital);
+		printf("%-10d %-18.6lf %-.6lf\n", i, interest, capital);
 	}
 }
